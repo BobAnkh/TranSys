@@ -7,7 +7,7 @@ Install required dependencies:
 ``
 pip install python==3.7.4 numpy==1.17.2 tensorflow==1.14.0 tflearn==0.3.2 scikit-learn==0.21.3 pydotplus==2.0.2
 ``
-Tips: If you are facing the problem `illegal instruction` when import tensorflow, you may refer to articles:[1](https://tech.amikelive.com/node-882/how-to-build-and-install-the-latest-tensorflow-without-cuda-gpu-and-with-optimized-cpu-performance-on-ubuntu/) or [2](https://github.com/naruai/wiki/blob/master/TensorFlow/BuildTensorFlowWOAVX.md)
+Tips: If you are facing the problem `illegal instruction` when import tensorflow, you may refer to articles:[[1](https://tech.amikelive.com/node-882/how-to-build-and-install-the-latest-tensorflow-without-cuda-gpu-and-with-optimized-cpu-performance-on-ubuntu/)] or [[2](https://github.com/naruai/wiki/blob/master/TensorFlow/BuildTensorFlowWOAVX.md)]. Also, the easiest way to deal with it is to use `tensorflow==1.5.0` instead of `tensorflow==1.14.0`.
 ### Traces
 Unzip the cooked traces:
 
