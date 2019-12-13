@@ -24,10 +24,10 @@ grunt
 
 - Convert the `DecisionTreeClassifier` into JavaScript codes with sklearn-porter (https://github.com/nok/sklearn-porter).
 - Replace the JS codes in `dash.js/src/streaming/controllers/ViperDecisionTree.js` with the converted JS codes.
-- Run the Gruntfile to generate a new `dash.all.min.js`.
+- Run the Gruntfile(`grunt --force`) to generate a new `dash.all.min.js`and `dash.all.min.js.map`.
 - Put the `dash.all.min.js` to `./video_server`.
 - Move the `./video_server/` to `/var/www/html/`.
-- Visit the `http://localhost/myindex_XX.html` (XX should be the name of the ABR). The memory and latency statistics will be displayed on the web page.
+- Visit the `http://localhost/index_XX.html` (XX should be the name of the ABR). The memory and latency statistics will be displayed on the web page.
 
 ## Steps to Implement AuTO Model
 We adopt the original codes provided by the authors of AuTO at [https://bitbucket.org/JustinasLingys/auto_sigcomm2018/].
